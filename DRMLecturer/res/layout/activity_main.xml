@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99BBBC"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnNewActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:drawableLeft="@drawable/createnewproject"
+        android:text="Create New Activity"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnNewActivity"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnNewActivity"
+        android:drawableLeft="@drawable/blank"
+        android:text="Use Blank Activity"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button01"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button01"
+        android:drawableLeft="@drawable/viewstudent"
+        android:text="View Student"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button02"
+        android:drawableLeft="@drawable/deployquestion"
+        android:text="Deploy Question"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/ButtonViewActivities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button03"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button03"
+        android:drawableLeft="@drawable/viewstudent"
+        android:text="View Activities"
+        android:textSize="40sp" />
+
+</RelativeLayout>

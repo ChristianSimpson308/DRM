@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99BBBC"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".StudentList" >
+
+    <ListView
+        android:id="@+id/listViewStudents"
+        android:layout_width="400sp"
+        android:layout_height="wrap_content" >
+
+    </ListView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="400sp"
+        android:layout_height="400sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/listViewStudents"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="96dp"
+        android:src="@drawable/logo1" />
+
+    <TextView
+        android:id="@+id/studentActivityNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignTop="@+id/listViewStudents"
+        android:textStyle="bold"
+        android:text="List of Students"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30pt" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/studentActivityNumber"
+        android:layout_below="@+id/studentActivityNumber"
+        android:text="Select a student to check their Data Structure"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

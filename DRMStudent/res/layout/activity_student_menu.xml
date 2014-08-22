@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99BBBC"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".StudentMenu" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Main Menu"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50px" />
+
+    <Button
+        android:id="@+id/buttonOpenPlay"
+        android:layout_width="440dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="67dp"
+        android:text="Open Play"
+        android:textSize="50px" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="450px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonOpenPlay"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttonOpenPlay"
+        android:layout_marginTop="70dp"
+        android:text="Do Lecturer Example"
+        android:textSize="50px" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="63dp"
+        android:text="View Projection"
+        android:textSize="50px" />
+
+</RelativeLayout>
