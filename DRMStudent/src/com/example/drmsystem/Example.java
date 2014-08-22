@@ -38,7 +38,7 @@ public class Example extends View {
     ArrayList<Successor> SuccessorList = new ArrayList<Successor>();
     ArrayList<Predecessor> PredecessroList = new ArrayList<Predecessor>();
     ArrayList<LinkedList> LinkListList = new ArrayList<LinkedList>();
- 
+    ArrayList<SolutionSequence> SolutionList = new ArrayList<SolutionSequence>();
 
     Paint BackP;
 	ArrayList<Node> Nodes = new ArrayList<Node>();
